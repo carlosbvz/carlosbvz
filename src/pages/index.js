@@ -2,13 +2,17 @@ import React from "react"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 import Badge from "../components/badge"
+import Container from "../components/container"
 
 const IndexPage = () => (
   <Layout>
     <SEO title="Carlos Benavides" keywords={[`Carlos`, `Benavides`, `Curriculum`, `Software`, `Front End`]} />
-    <h1>Carlos Benavides</h1>
-    <h2>Front End Developer</h2>
-    <p>Team oriented <span>Front-End Developer</span> with proficient problem-solving skills and 5+ years of professional experience in the field. I have been working in a diverse spectrum of projects, from developing experimental software in small projects, to supporting websites for fortune 500 companies.</p>
+    
+    <Container>
+        <h1>Carlos Benavides</h1>
+        <h2>Front End Developer</h2>
+        <p>Team oriented <span>Front-End Developer</span> with proficient problem-solving skills and 5+ years of professional experience in the field. I have been working in a diverse spectrum of projects, from developing experimental software in small projects, to supporting websites for fortune 500 companies.</p>
+    </Container>
 
     <div 
         style={{
